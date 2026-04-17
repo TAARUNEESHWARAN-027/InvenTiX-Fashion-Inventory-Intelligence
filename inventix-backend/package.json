@@ -1,0 +1,22 @@
+{
+  "name": "inventix-backend",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "init-db": "node config/init-db.js",
+    "seed": "node config/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3",
+    "socket.io": "^4.7.4"
+  }
+}
